@@ -44,8 +44,8 @@ X_train, X_test, y_train, y_test = train_test_split(X, y,test_size=0.2, random_s
 model = LinearRegression()
 model.fit(X_train, y_train)
 
-print('Name: KRITHIKAA P ')
-print('Reg. No: 212225040193')
+print('Name: PRIYADHARSHINI P ')
+print('Reg. No: 212225220076')
 print("\n== Cross-Validation ==")
 cv_scores = cross_val_score(model,X,y,cv=5)
 print("Fold R^2 scores:", [f"{score:.4f}" for score in cv_scores])
@@ -67,7 +67,8 @@ plt.grid(True)
 plt.show()
 
 ## Output:
-![simple linear regression model for predicting the marks scored](sam.png)
+<img width="792" height="721" alt="image" src="https://github.com/user-attachments/assets/cf07e994-cc73-45ee-bea4-d9791526237b" />
+
 
 
 ## Result:
